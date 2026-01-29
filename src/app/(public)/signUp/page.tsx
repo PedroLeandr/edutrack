@@ -13,7 +13,7 @@ export default function SignUpPage() {
 
 
     return (
-        <div>
+        <div className="w-full flex justify-center items-center h-dvh">
             <SignUp />
         </div>
     )
