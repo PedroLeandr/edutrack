@@ -6,7 +6,7 @@ import { Switch } from "@/components/ui/switch";
     import { LibraryBig } from "lucide-react";
     import Image from "next/image";
 
-    export default function SignUp() {
+    export default function SignUpComponent() {
 
 
 

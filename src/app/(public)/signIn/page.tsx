@@ -1,5 +1,4 @@
-import SignUpComponent from "./_components/signUp";
-
+import SignInComponent from "./_components/signIn";
 
 
 
@@ -9,7 +8,7 @@ export default function SignUpPage() {
 
     return (
         <div className="w-full flex justify-center items-center h-dvh">
-            <SignUpComponent />
+            <SignInComponent />
         </div>
     )
 }
