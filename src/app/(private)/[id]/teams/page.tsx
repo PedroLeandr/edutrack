@@ -11,7 +11,9 @@ export default function TeamsPage() {
         <SidebarProvider>
             <AppSidebar />
             <SidebarInset>
-                
+                <header>
+                    
+                </header>
             </SidebarInset>
         </SidebarProvider>
     )
