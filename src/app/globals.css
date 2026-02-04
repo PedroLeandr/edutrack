@@ -81,7 +81,6 @@
   --sidebar-ring:hsl(272 63% 46%);
 }
 
-
 .dark{
   --background:hsl(270 15% 8%);
   --foreground:hsl(270 10% 92%);
@@ -115,7 +114,6 @@
   --sidebar-border:hsl(270 15% 20%);
   --sidebar-ring:hsl(273 68% 59%);
 }
-
 
 @layer base {
   * {

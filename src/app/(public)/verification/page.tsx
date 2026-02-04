@@ -1,5 +1,6 @@
 "use client"
 
+import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Field, FieldLabel } from "@/components/ui/field";
 import { InputOTP, InputOTPGroup, InputOTPSlot } from "@/components/ui/input-otp";
@@ -19,7 +20,7 @@ export default function VerificationPage() {
                     <CardTitle className="text-3xl text-center font-bold">Verifique seu email</CardTitle>
                     <CardDescription className="text-center text-lg">Enviamos um link de verificação para o seu email</CardDescription>
                 </CardHeader>
-                <CardContent className="flex justify-center items-center">
+                <CardContent className="flex flex-col space-y-2 justify-center items-center">
                     <Field className="w-fit">
                         <InputOTP id="digits-only" maxLength={6} pattern={REGEXP_ONLY_DIGITS}>
                             <InputOTPGroup>
@@ -32,6 +33,11 @@ export default function VerificationPage() {
                             </InputOTPGroup>
                         </InputOTP>
                     </Field>
+                    <div>
+                        <Button variant="default" className="mt-4 cursor-pointer">
+                            Reenviar código
+                        </Button>
+                    </div>
                 </CardContent>
             </Card>
         </div>
